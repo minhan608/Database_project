@@ -5,10 +5,7 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Sajeeb
- */
+
 public class Connector {
 
     public static void main(String[] args) {

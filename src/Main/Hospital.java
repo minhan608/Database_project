@@ -2,10 +2,7 @@ package Main;
 
 import javax.swing.ImageIcon;
 
-/**
- *
- * @author Sajeeb
- */
+
 public class Hospital extends javax.swing.JFrame {
 
     public Hospital() {

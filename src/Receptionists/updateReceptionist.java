@@ -12,10 +12,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author Sajeeb
- */
+
 public class updateReceptionist extends javax.swing.JFrame {
 
     Connection connection = null;

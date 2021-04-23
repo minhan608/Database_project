@@ -6,10 +6,7 @@ import Main.Hospital;
 import Patient.patientActivity;
 import Receptionists.ReceptionistActivity;
 
-/**
- *
- * @author Sajeeb
- */
+
 public class AdminActivity extends javax.swing.JFrame {
 
     String username;

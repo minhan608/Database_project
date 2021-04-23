@@ -9,10 +9,7 @@ import java.sql.SQLException;
 import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
-/**
- *
- * @author Sajeeb
- */
+
 public class addReceptionist extends javax.swing.JFrame {
 
     Connection connection = null;

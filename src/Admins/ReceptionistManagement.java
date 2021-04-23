@@ -8,10 +8,7 @@ import Receptionists.updateReceptionist;
 import Receptionists.viewReceptionist;
 import javax.swing.ImageIcon;
 
-/**
- *
- * @author Sajeeb
- */
+
 public class ReceptionistManagement extends javax.swing.JFrame {
 
     public ReceptionistManagement() {

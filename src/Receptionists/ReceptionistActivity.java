@@ -3,10 +3,7 @@ package Receptionists;
 import Main.Hospital;
 import javax.swing.ImageIcon;
 
-/**
- *
- * @author Sajeeb
- */
+
 public class ReceptionistActivity extends javax.swing.JFrame {
 
     public static String username;

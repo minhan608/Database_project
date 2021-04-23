@@ -4,10 +4,6 @@ import Doctors.*;
 import Main.Hospital;
 import javax.swing.ImageIcon;
 
-/**
- *
- * @author Sajeeb
- */
 public class doctorManagement extends javax.swing.JFrame {
 
     public static String username;
@@ -23,7 +19,7 @@ public class doctorManagement extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
