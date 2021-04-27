@@ -7,12 +7,12 @@ import Patient.patientActivity;
 import Receptionists.ReceptionistActivity;
 
 
-public class AdminActivity extends javax.swing.JFrame {
+public class adminActivity extends javax.swing.JFrame {
 
     String username;
     Admin admin = new Admin();
 
-    public AdminActivity() {
+    public adminActivity() {
         initComponents();
         ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
         this.setIconImage(ic.getImage());
@@ -323,7 +323,7 @@ public class AdminActivity extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel7MouseClicked
 
     private void jLabel5MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel5MouseClicked
-        ReceptionistManagement rm = new ReceptionistManagement();
+        receptionistManagement rm = new receptionistManagement();
         rm.setVisible(true);
         dispose();
     }//GEN-LAST:event_jLabel5MouseClicked
@@ -347,7 +347,7 @@ public class AdminActivity extends javax.swing.JFrame {
     public static void main(String args[]) {
 
         java.awt.EventQueue.invokeLater(() -> {
-            new AdminActivity().setVisible(true);
+            new adminActivity().setVisible(true);
         });
     }
 

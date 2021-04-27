@@ -1,6 +1,6 @@
 package Receptionists;
 
-import Admins.ReceptionistManagement;
+import Admins.receptionistManagement;
 import Main.Connector;
 import Main.Place;
 import java.sql.Connection;
@@ -197,7 +197,7 @@ public class viewReceptionist extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel20MouseClicked
 
     private void jLabel21MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel21MouseClicked
-        ReceptionistManagement rm = new ReceptionistManagement();
+        receptionistManagement rm = new receptionistManagement();
         rm.setVisible(true);
         dispose();
     }//GEN-LAST:event_jLabel21MouseClicked

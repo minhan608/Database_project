@@ -1,6 +1,6 @@
 package Main;
 
-import Admins.AdminActivity;
+import Admins.adminActivity;
 import java.awt.HeadlessException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -142,7 +142,7 @@ public class Admin extends javax.swing.JFrame {
             result = prp.executeQuery();
             result.first();
             if (pass.equals(result.getString("password"))) {
-                AdminActivity adminActivity = new AdminActivity();
+                adminActivity adminActivity = new adminActivity();
                 adminActivity.setVisible(true);
                 JOptionPane.showMessageDialog(null, "Login Succesful", "Welcome " + user, JOptionPane.INFORMATION_MESSAGE);
                 dispose();

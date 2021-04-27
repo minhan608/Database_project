@@ -492,7 +492,7 @@ public class doctorManagement extends javax.swing.JFrame {
     }//GEN-LAST:event_searchReceptionbtn2MouseClicked
 
     private void jLabel21MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel21MouseClicked
-        AdminActivity aActivity = new AdminActivity();
+        adminActivity aActivity = new adminActivity();
         aActivity.setVisible(true);
         dispose();
     }//GEN-LAST:event_jLabel21MouseClicked

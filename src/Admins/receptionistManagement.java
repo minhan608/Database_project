@@ -9,9 +9,9 @@ import Receptionists.viewReceptionist;
 import javax.swing.ImageIcon;
 
 
-public class ReceptionistManagement extends javax.swing.JFrame {
+public class receptionistManagement extends javax.swing.JFrame {
 
-    public ReceptionistManagement() {
+    public receptionistManagement() {
         initComponents();
         ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
         this.setIconImage(ic.getImage());
@@ -403,7 +403,7 @@ public class ReceptionistManagement extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel16MouseClicked
 
     private void jLabel19MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel19MouseClicked
-        AdminActivity aActivity = new AdminActivity();
+        adminActivity aActivity = new adminActivity();
         aActivity.setVisible(true);
         dispose();
     }//GEN-LAST:event_jLabel19MouseClicked
@@ -470,7 +470,7 @@ public class ReceptionistManagement extends javax.swing.JFrame {
 
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(() -> {
-            new ReceptionistManagement().setVisible(true);
+            new receptionistManagement().setVisible(true);
         });
     }
 

@@ -1,6 +1,6 @@
 package Patient;
 
-import Admins.AdminActivity;
+import Admins.adminActivity;
 import Main.Place;
 import javax.swing.ImageIcon;
 
@@ -415,7 +415,7 @@ public class patientActivity extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel16MouseClicked
 
     private void jLabel17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel17MouseClicked
-        AdminActivity adminActivity = new AdminActivity();
+        adminActivity adminActivity = new adminActivity();
         adminActivity.setVisible(true);
         dispose();
     }//GEN-LAST:event_jLabel17MouseClicked
