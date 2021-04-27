@@ -1,7 +1,7 @@
 package Receptionists;
 
 import Admins.ReceptionistManagement;
-import Main.Hospital;
+import Main.Place;
 import Main.Connector;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -420,8 +420,8 @@ public class addReceptionist extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jLabel18MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel18MouseClicked
-        Hospital hospital = new Hospital();
-        hospital.setVisible(true);
+        Place place = new Place();
+        place.setVisible(true);
         dispose();
     }//GEN-LAST:event_jLabel18MouseClicked
 

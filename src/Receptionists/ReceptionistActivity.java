@@ -1,6 +1,6 @@
 package Receptionists;
 
-import Main.Hospital;
+import Main.Place;
 import javax.swing.ImageIcon;
 
 
@@ -320,8 +320,8 @@ public class ReceptionistActivity extends javax.swing.JFrame {
     }//GEN-LAST:event_jPanel1MouseMoved
 
     private void jLabel16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel16MouseClicked
-        Hospital hospital = new Hospital();
-        hospital.setVisible(true);
+        Place place = new Place();
+        place.setVisible(true);
         dispose();
     }//GEN-LAST:event_jLabel16MouseClicked
 

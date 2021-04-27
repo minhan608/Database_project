@@ -1,7 +1,7 @@
 package Receptionists;
 
 import Main.Connector;
-import Main.Hospital;
+import Main.Place;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -230,8 +230,8 @@ public class chooseDoctor extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jLabel18MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel18MouseClicked
-        Hospital hospital = new Hospital();
-        hospital.setVisible(true);
+        Place place = new Place();
+        place.setVisible(true);
         dispose();
     }//GEN-LAST:event_jLabel18MouseClicked
 

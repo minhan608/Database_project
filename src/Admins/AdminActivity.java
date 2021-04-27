@@ -2,7 +2,7 @@ package Admins;
 
 import javax.swing.ImageIcon;
 import Main.Admin;
-import Main.Hospital;
+import Main.Place;
 import Patient.patientActivity;
 import Receptionists.ReceptionistActivity;
 
@@ -44,7 +44,7 @@ public class AdminActivity extends javax.swing.JFrame {
         jLabel16 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Welcome to Admin Pannel !");
+        setTitle(" Admin Pannel !");
         setSize(new java.awt.Dimension(1000, 550));
         addMouseMotionListener(new java.awt.event.MouseMotionAdapter() {
             public void mouseMoved(java.awt.event.MouseEvent evt) {
@@ -52,7 +52,7 @@ public class AdminActivity extends javax.swing.JFrame {
             }
         });
 
-        jPanel1.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel1.setBackground(new java.awt.Color(232, 2, 252));
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 30)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -224,7 +224,7 @@ public class AdminActivity extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel2.setBackground(new java.awt.Color(232, 2, 252));
 
         jLabel10.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
@@ -339,8 +339,8 @@ public class AdminActivity extends javax.swing.JFrame {
     }//GEN-LAST:event_formMouseMoved
 
     private void jLabel16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel16MouseClicked
-        Hospital hospital = new Hospital();
-        hospital.setVisible(true);
+        Place place = new Place();
+        place.setVisible(true);
         dispose();
     }//GEN-LAST:event_jLabel16MouseClicked
 

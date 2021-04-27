@@ -1,7 +1,7 @@
 package Admins;
 
 import Doctors.*;
-import Main.Hospital;
+import Main.Place;
 import javax.swing.ImageIcon;
 
 public class doctorManagement extends javax.swing.JFrame {
@@ -63,14 +63,14 @@ public class doctorManagement extends javax.swing.JFrame {
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
         jLabel10.setText("Doctor Panel");
 
-        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/cross.png"))); // NOI18N
+        jLabel17.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/cross.png"))); 
         jLabel17.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel17MouseClicked(evt);
             }
         });
 
-        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/backs.png"))); // NOI18N
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Icon/backs.png")));
         jLabel21.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jLabel21MouseClicked(evt);
@@ -426,8 +426,8 @@ public class doctorManagement extends javax.swing.JFrame {
     }//GEN-LAST:event_jPanel1MouseMoved
 
     private void jLabel17MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel17MouseClicked
-        Hospital hospital = new Hospital();
-        hospital.setVisible(true);
+        Place place = new Place();
+        place.setVisible(true);
         dispose();
     }//GEN-LAST:event_jLabel17MouseClicked
 

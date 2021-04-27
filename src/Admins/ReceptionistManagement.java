@@ -1,6 +1,6 @@
 package Admins;
 
-import Main.Hospital;
+import Main.Place;
 import Receptionists.addReceptionist;
 import Receptionists.deleteReceptionist;
 import Receptionists.searchReceptionist;
@@ -397,8 +397,8 @@ public class ReceptionistManagement extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jLabel16MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel16MouseClicked
-        Hospital hospital = new Hospital();
-        hospital.setVisible(true);
+        Place place = new Place();
+        place.setVisible(true);
         dispose();
     }//GEN-LAST:event_jLabel16MouseClicked
 

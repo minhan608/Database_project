@@ -2,7 +2,7 @@ package Doctors;
 
 import Admins.doctorManagement;
 import Main.Connector;
-import Main.Hospital;
+import Main.Place;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
@@ -500,8 +500,8 @@ public class addDoctor extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jLabel20MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel20MouseClicked
-        Hospital hospital = new Hospital();
-        hospital.setVisible(true);
+        Place place = new Place();
+        place.setVisible(true);
         dispose();
     }//GEN-LAST:event_jLabel20MouseClicked
 
@@ -591,11 +591,11 @@ public class addDoctor extends javax.swing.JFrame {
 
     private void clearPbtnMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_clearPbtnMouseClicked
         dDateField.setText("");
-        dIdField.setText("sjb0HMSd");
+        dIdField.setText("");
         dNameField.setText("");
         dAgeField.setText("");
         dDeptField.setSelectedIndex(0);
-        dPhoneField.setText("+880");
+        dPhoneField.setText("");
         dAddressField.setText("");
         dRoomField.setText("");
         dGenderField.setSelectedIndex(0);

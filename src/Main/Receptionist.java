@@ -112,8 +112,8 @@ public class Receptionist extends javax.swing.JFrame {
     }//GEN-LAST:event_rPassFieldActionPerformed
 
     private void rExitBtnActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_rExitBtnActionPerformed
-        Hospital hospital = new Hospital();
-        hospital.setVisible(true);
+        Place place = new Place();
+        place.setVisible(true);
         dispose();
     }//GEN-LAST:event_rExitBtnActionPerformed
 

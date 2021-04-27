@@ -3,16 +3,15 @@ package Main;
 import javax.swing.ImageIcon;
 
 
-public class Hospital extends javax.swing.JFrame {
+public class Place extends javax.swing.JFrame {
 
-    public Hospital() {
+    public Place() {
         initComponents();
         ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
         this.setIconImage(ic.getImage());
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
         MainF = new javax.swing.JPanel();
@@ -34,11 +33,9 @@ public class Hospital extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Welcome To Hospital Management System");
+        setTitle("IU Patient Tracker System");
         setResizable(false);
         setSize(new java.awt.Dimension(800, 480));
-
-        MainF.setName("Welcome To Hospital Management System"); // NOI18N
 
         jPanel1.setBackground(java.awt.Color.lightGray);
 
@@ -83,7 +80,7 @@ public class Hospital extends javax.swing.JFrame {
         mLabel.setBackground(new java.awt.Color(0, 153, 153));
         mLabel.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         mLabel.setForeground(new java.awt.Color(255, 255, 255));
-        mLabel.setText("Hospital Management System");
+        mLabel.setText("Patient Tracker System");
 
         jPanel2.setBackground(java.awt.Color.lightGray);
 
@@ -201,7 +198,7 @@ public class Hospital extends javax.swing.JFrame {
 
         jLabel4.setFont(new java.awt.Font("Arial Narrow", 0, 30)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel4.setText("Mini Hospital");
+        jLabel4.setText("   IU System ");
         jLabel4.setToolTipText("");
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
@@ -326,7 +323,7 @@ public class Hospital extends javax.swing.JFrame {
 
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(() -> {
-            new Hospital().setVisible(true);
+            new Place().setVisible(true);
         });
     }
 
