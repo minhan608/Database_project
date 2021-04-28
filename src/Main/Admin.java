@@ -37,15 +37,15 @@ public class Admin extends javax.swing.JFrame {
         mLabel = new java.awt.Label();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("Welcome Admin !");
+        setTitle("Admin !");
         setMaximizedBounds(new java.awt.Rectangle(0, 0, 1000, 550));
         setResizable(false);
         setSize(new java.awt.Dimension(1000, 550));
 
-        aUserLabel.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        aUserLabel.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         aUserLabel.setText("Username:");
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel2.setText("Password:");
 
         aUserField.addActionListener(new java.awt.event.ActionListener() {
@@ -55,7 +55,7 @@ public class Admin extends javax.swing.JFrame {
         });
 
         dExitBtn.setBackground(new java.awt.Color(0, 204, 204));
-        dExitBtn.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        dExitBtn.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         dExitBtn.setForeground(new java.awt.Color(255, 255, 255));
         dExitBtn.setText("Home");
         dExitBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -65,7 +65,7 @@ public class Admin extends javax.swing.JFrame {
         });
 
         aLoginBtn.setBackground(new java.awt.Color(0, 153, 153));
-        aLoginBtn.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        aLoginBtn.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         aLoginBtn.setForeground(new java.awt.Color(255, 255, 255));
         aLoginBtn.setText("Login");
         aLoginBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -78,7 +78,7 @@ public class Admin extends javax.swing.JFrame {
         mLabel.setBackground(new java.awt.Color(0, 153, 153));
         mLabel.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         mLabel.setForeground(new java.awt.Color(255, 255, 255));
-        mLabel.setText("Hospital Management System");
+        mLabel.setText("Patient Tracker System");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);

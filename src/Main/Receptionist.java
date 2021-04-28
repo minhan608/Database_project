@@ -45,11 +45,11 @@ public class Receptionist extends javax.swing.JFrame {
         mLabel.setBackground(new java.awt.Color(0, 153, 153));
         mLabel.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         mLabel.setForeground(new java.awt.Color(255, 255, 255));
-        mLabel.setText("Hospital Management System");
+        mLabel.setText("Patient Tracker System");
         getContentPane().add(mLabel);
         mLabel.setBounds(0, 34, 1000, 70);
 
-        dUser.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        dUser.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         dUser.setText("Username:");
         getContentPane().add(dUser);
         dUser.setBounds(262, 168, 116, 29);
@@ -62,7 +62,7 @@ public class Receptionist extends javax.swing.JFrame {
         getContentPane().add(rUserField);
         rUserField.setBounds(388, 168, 279, 29);
 
-        plbl.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        plbl.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         plbl.setText("Password:");
         getContentPane().add(plbl);
         plbl.setBounds(261, 302, 109, 29);
@@ -76,7 +76,7 @@ public class Receptionist extends javax.swing.JFrame {
         rPassField.setBounds(388, 302, 279, 29);
 
         rExitBtn.setBackground(new java.awt.Color(0, 204, 204));
-        rExitBtn.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        rExitBtn.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         rExitBtn.setForeground(new java.awt.Color(255, 255, 255));
         rExitBtn.setText("Home");
         rExitBtn.addActionListener(new java.awt.event.ActionListener() {
@@ -88,7 +88,7 @@ public class Receptionist extends javax.swing.JFrame {
         rExitBtn.setBounds(388, 404, 91, 35);
 
         rLoginBtn.setBackground(new java.awt.Color(0, 153, 153));
-        rLoginBtn.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        rLoginBtn.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         rLoginBtn.setForeground(new java.awt.Color(255, 255, 255));
         rLoginBtn.setText("Login");
         rLoginBtn.addActionListener(new java.awt.event.ActionListener() {
