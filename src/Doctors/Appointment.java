@@ -115,7 +115,7 @@ public class Appointment extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 204, 204));
         jLabel1.setText("Patient Name:");
 
@@ -123,7 +123,7 @@ public class Appointment extends javax.swing.JFrame {
         pNamelbl.setForeground(new java.awt.Color(153, 153, 153));
         pNamelbl.setText("Patient Name");
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(0, 204, 204));
         jLabel2.setText("Age:");
 
@@ -139,16 +139,16 @@ public class Appointment extends javax.swing.JFrame {
         pGenderlbl.setForeground(new java.awt.Color(153, 153, 153));
         pGenderlbl.setText("Patient Gender");
 
-        jLabel7.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel7.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         jLabel7.setForeground(new java.awt.Color(0, 204, 204));
         jLabel7.setText("ID:");
 
-        jLabel8.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color(0, 204, 204));
         jLabel8.setText("Gender:");
 
         appointmentBtn.setBackground(new java.awt.Color(0, 204, 204));
-        appointmentBtn.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        appointmentBtn.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         appointmentBtn.setForeground(new java.awt.Color(255, 255, 255));
         appointmentBtn.setText("Details");
         appointmentBtn.addActionListener(new java.awt.event.ActionListener() {

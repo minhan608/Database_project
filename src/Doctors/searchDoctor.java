@@ -92,7 +92,7 @@ public class searchDoctor extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 153, 153));
         jLabel1.setText("Name of Doctor");
 
@@ -116,7 +116,7 @@ public class searchDoctor extends javax.swing.JFrame {
             }
         });
 
-        dSearchbtn.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        dSearchbtn.setFont(new java.awt.Font("Arial", 0, 20)); // NOI18N
         dSearchbtn.setForeground(new java.awt.Color(255, 255, 255));
         dSearchbtn.setText("Search");
         dSearchbtn.addMouseListener(new java.awt.event.MouseAdapter() {

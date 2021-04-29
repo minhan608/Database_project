@@ -311,11 +311,11 @@ public class receptionistManagement extends javax.swing.JFrame {
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
         jLabel1.setText("Welcome");
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("to");
 
-        jLabel3.setFont(new java.awt.Font("Arial Narrow", 0, 26)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Arial", 0, 26)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("Reception Management");
         jLabel3.setToolTipText("");

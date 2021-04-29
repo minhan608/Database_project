@@ -92,7 +92,7 @@ public class chooseDoctor extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jLabel1.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 153, 153));
         jLabel1.setText("Department");
 
@@ -103,7 +103,7 @@ public class chooseDoctor extends javax.swing.JFrame {
             }
         });
 
-        dASearchbtn.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        dASearchbtn.setFont(new java.awt.Font("Arial", 0, 20)); // NOI18N
         dASearchbtn.setForeground(new java.awt.Color(255, 255, 255));
         dASearchbtn.setText("Search");
         dASearchbtn.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -152,7 +152,7 @@ public class chooseDoctor extends javax.swing.JFrame {
             }
         });
 
-        dASearchbtn1.setFont(new java.awt.Font("Tahoma", 0, 24)); // NOI18N
+        dASearchbtn1.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         dASearchbtn1.setForeground(new java.awt.Color(255, 255, 255));
         dASearchbtn1.setText("Next");
         dASearchbtn1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -177,7 +177,7 @@ public class chooseDoctor extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        doctorhind.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        doctorhind.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         doctorhind.setForeground(new java.awt.Color(0, 204, 204));
         doctorhind.setText("Select a Doctor and Press Next");
 
