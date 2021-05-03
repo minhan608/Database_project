@@ -366,43 +366,42 @@ public class addPatient extends javax.swing.JFrame {
 
         pack();
         setLocationRelativeTo(null);
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void jLabel18MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel18MouseClicked
         Place place = new Place();
         place.setVisible(true);
         dispose();
-    }//GEN-LAST:event_jLabel18MouseClicked
+    }
 
     private void jLabel19MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel19MouseClicked
         patientActivity pActivity = new patientActivity();
         pActivity.setVisible(true);
         dispose();
-    }//GEN-LAST:event_jLabel19MouseClicked
+    }
 
     private void pDateFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pDateFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_pDateFieldActionPerformed
-
+      
+    }
     private void pIdFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pIdFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_pIdFieldActionPerformed
+     
+    }
 
     private void pNameFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pNameFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_pNameFieldActionPerformed
+    
+    }
 
     private void pAgeFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pAgeFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_pAgeFieldActionPerformed
+        
+    }
 
     private void pAddressFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pAddressFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_pAddressFieldActionPerformed
+        
+    }
 
     private void pPhoneFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pPhoneFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_pPhoneFieldActionPerformed
+    
+    }
 
     private void pDiseaseFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pDiseaseFieldActionPerformed
         // TODO add your handling code here:
@@ -410,15 +409,15 @@ public class addPatient extends javax.swing.JFrame {
 
     private void pRoomFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pRoomFieldActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_pRoomFieldActionPerformed
+    }
 
     private void pGenderFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pGenderFieldActionPerformed
 
-    }//GEN-LAST:event_pGenderFieldActionPerformed
+    }
 
     private void pStatusFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_pStatusFieldActionPerformed
 
-    }//GEN-LAST:event_pStatusFieldActionPerformed
+    }
 
     private void addDctorbtnMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_addDctorbtnMouseClicked
         connection = Connector.ConnectDb();
@@ -457,7 +456,7 @@ public class addPatient extends javax.swing.JFrame {
         pDateField.setText("");
         pNameField.setText("");
         pAgeField.setText("");
-        pIdField.setText("sjb0HMS");
+        pIdField.setText("");
         pAddressField.setText("");
         pPhoneField.setText("");
         pDiseaseField.setText("");
@@ -470,7 +469,7 @@ public class addPatient extends javax.swing.JFrame {
         pDateField.setText("");
         pNameField.setText("");
         pAgeField.setText("");
-        pIdField.setText("sjb0HMS");
+        pIdField.setText("");
         pAddressField.setText("");
         pPhoneField.setText("");
         pDiseaseField.setText("");
@@ -481,18 +480,16 @@ public class addPatient extends javax.swing.JFrame {
 
     private void jPanel6MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel6MouseClicked
 
-    }//GEN-LAST:event_jPanel6MouseClicked
+    }
 
-    /**
-     * @param args the command line arguments
-     */
+
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(() -> {
             new addPatient().setVisible(true);
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+  
     private javax.swing.JLabel Gender;
     private javax.swing.JLabel addDctorbtn;
     private javax.swing.JLabel clearPbtn;
@@ -522,5 +519,5 @@ public class addPatient extends javax.swing.JFrame {
     private javax.swing.JTextField pPhoneField;
     private javax.swing.JTextField pRoomField;
     private javax.swing.JComboBox<String> pStatusField;
-    // End of variables declaration//GEN-END:variables
+  
 }

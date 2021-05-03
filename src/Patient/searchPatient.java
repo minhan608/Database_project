@@ -265,9 +265,9 @@ public class searchPatient extends javax.swing.JFrame {
         }
     }//GEN-LAST:event_jPanel1MouseClicked
 
-    private void pSearchFieldKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_pSearchFieldKeyPressed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_pSearchFieldKeyPressed
+    private void pSearchFieldKeyPressed(java.awt.event.KeyEvent evt) {
+       
+    }
     public static void main(String args[]) {
 
         java.awt.EventQueue.invokeLater(() -> {
@@ -275,7 +275,7 @@ public class searchPatient extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+   
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel2;
@@ -286,5 +286,5 @@ public class searchPatient extends javax.swing.JFrame {
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JTable pSTable;
     private javax.swing.JTextField pSearchField;
-    // End of variables declaration//GEN-END:variables
+ 
 }

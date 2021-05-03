@@ -162,17 +162,14 @@ public final class patientDetails extends javax.swing.JFrame {
         Place place = new Place();
         place.setVisible(true);
         dispose();
-    }//GEN-LAST:event_jLabel16MouseClicked
+    }
 
     private void jLabel21MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel21MouseClicked
-        Appointment appointment = new Appointment(data);
+        appointment appointment = new appointment(data);
         appointment.setVisible(true);
         dispose();
     }//GEN-LAST:event_jLabel21MouseClicked
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String args[]) {
 
         java.awt.EventQueue.invokeLater(() -> {

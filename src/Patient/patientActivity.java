@@ -14,7 +14,7 @@ public class patientActivity extends javax.swing.JFrame {
     }
 
     @SuppressWarnings("unchecked")
-    // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
+ 
     private void initComponents() {
 
         jPanel1 = new javax.swing.JPanel();
@@ -445,13 +445,13 @@ public class patientActivity extends javax.swing.JFrame {
     }//GEN-LAST:event_jLabel13MouseClicked
 
     private void jLabel9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseClicked
-        DeletePatient deletePatient = new DeletePatient();
+        deletePatient deletePatient = new deletePatient();
         deletePatient.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jLabel9MouseClicked
 
     private void jLabel8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel8MouseClicked
-        DeletePatient deletePatient = new DeletePatient();
+        deletePatient deletePatient = new deletePatient();
         deletePatient.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jLabel8MouseClicked
@@ -486,7 +486,7 @@ public class patientActivity extends javax.swing.JFrame {
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+ 
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel11;
@@ -512,5 +512,5 @@ public class patientActivity extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel6;
     private javax.swing.JPanel jPanel7;
     private javax.swing.JPanel jPanel8;
-    // End of variables declaration//GEN-END:variables
+
 }

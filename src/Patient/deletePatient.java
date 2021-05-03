@@ -10,14 +10,14 @@ import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-public class DeletePatient extends javax.swing.JFrame {
+public class deletePatient extends javax.swing.JFrame {
 
     Connection connection = null;
     PreparedStatement ps = null;
     ResultSet rs = null;
     DefaultTableModel defaultTableModel = new DefaultTableModel();
 
-    public DeletePatient() {
+    public deletePatient() {
         initComponents();
         ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
         this.setIconImage(ic.getImage());
@@ -260,7 +260,7 @@ public class DeletePatient extends javax.swing.JFrame {
 
     public static void main(String args[]) {
         java.awt.EventQueue.invokeLater(() -> {
-            new DeletePatient().setVisible(true);
+            new deletePatient().setVisible(true);
         });
     }
 

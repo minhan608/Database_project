@@ -10,14 +10,14 @@ import javax.swing.ImageIcon;
 import javax.swing.JOptionPane;
 
 
-public class Appointment extends javax.swing.JFrame {
+public class appointment extends javax.swing.JFrame {
 
     PreparedStatement ps = null;
     ResultSet rs = null;
     Connection connection = null;
     String pName;
 
-    public Appointment(String Nname) {
+    public appointment(String Nname) {
         initComponents();
         pName = Nname;
         ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
@@ -44,7 +44,7 @@ public class Appointment extends javax.swing.JFrame {
 
     }
 
-    public Appointment() {
+    public appointment() {
         initComponents();
     }
 
@@ -241,7 +241,7 @@ public class Appointment extends javax.swing.JFrame {
     public static void main(String args[]) {
 
         java.awt.EventQueue.invokeLater(() -> {
-            new Appointment().setVisible(true);
+            new appointment().setVisible(true);
         });
     }
 

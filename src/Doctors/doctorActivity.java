@@ -228,7 +228,7 @@ public class doctorActivity extends javax.swing.JFrame {
         Place place = new Place();
         place.setVisible(true);
         dispose();
-    }//GEN-LAST:event_jLabel16MouseClicked
+    }
 
     private void jLabel8MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel8MouseClicked
         connection = Connector.ConnectDb();
@@ -239,7 +239,7 @@ public class doctorActivity extends javax.swing.JFrame {
             rs.first();
             String getPname = rs.getString("pName");
             sendName = getPname;
-            Appointment appointment = new Appointment(sendName);
+            appointment appointment = new appointment(sendName);
             appointment.setVisible(true);
             dispose();
 
@@ -247,7 +247,7 @@ public class doctorActivity extends javax.swing.JFrame {
             JOptionPane.showMessageDialog(null, "Appointment list is Empty");
         }
 
-    }//GEN-LAST:event_jLabel8MouseClicked
+    }
 
     private void jLabel9MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jLabel9MouseClicked
         connection = Connector.ConnectDb();
@@ -258,25 +258,21 @@ public class doctorActivity extends javax.swing.JFrame {
             rs.first();
             String getPname = rs.getString("pName");
             sendName = getPname;
-            Appointment appointment = new Appointment(sendName);
+            appointment appointment = new appointment(sendName);
             appointment.setVisible(true);
             dispose();
 
         } catch (SQLException e) {
             JOptionPane.showMessageDialog(null, "Appointment list is Empty");
         }
-    }//GEN-LAST:event_jLabel9MouseClicked
+    }
 
     private void jPanel1MouseMoved(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel1MouseMoved
         adminName.setText(findName);
-    }//GEN-LAST:event_jPanel1MouseMoved
+    }
 
     public static void main(String args[]) {
-        /* Set the Nimbus look and feel */
-        //<editor-fold defaultstate="collapsed" desc=" Look and feel setting code (optional) ">
-        /* If Nimbus (introduced in Java SE 6) is not available, stay with the default look and feel.
-         * For details see http://download.oracle.com/javase/tutorial/uiswing/lookandfeel/plaf.html 
-         */
+     
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
                 if ("Nimbus".equals(info.getName())) {
@@ -293,22 +289,13 @@ public class doctorActivity extends javax.swing.JFrame {
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
             java.util.logging.Logger.getLogger(doctorActivity.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-        //</editor-fold>
-
-        /* Create and display the form */
+       
         java.awt.EventQueue.invokeLater(() -> {
             new doctorActivity().setVisible(true);
         });
     }
 
-    // Variables declaration - do not modify//GEN-BEGIN:variables
+   
     private javax.swing.JLabel adminName;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
@@ -321,5 +308,5 @@ public class doctorActivity extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel6;
-    // End of variables declaration//GEN-END:variables
+  
 }
