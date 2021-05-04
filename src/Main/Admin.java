@@ -19,8 +19,6 @@ public class Admin extends javax.swing.JFrame {
 
     public Admin() {
         initComponents();
-        ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
-        this.setIconImage(ic.getImage());
     }
 
     
