@@ -20,8 +20,7 @@ public class chooseDoctor extends javax.swing.JFrame {
 
     public chooseDoctor() {
         initComponents();
-        ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
-        this.setIconImage(ic.getImage());
+       
         Object columns[] = {"Serial", "Joining Date", "Id", "Name", "Age", "Gender", "Blood Group", "Department", "Phone Number", "Email Address", "Status", "Address", "Room number", "Username"};
         defaultTableModel.setColumnIdentifiers(columns);
         apTable.setModel(defaultTableModel);
@@ -48,7 +47,7 @@ public class chooseDoctor extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Choose Docotor !");
 
-        jPanel5.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel5.setBackground(new java.awt.Color(148 , 0  , 211));
 
         jLabel12.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
@@ -93,10 +92,10 @@ public class chooseDoctor extends javax.swing.JFrame {
         );
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel1.setForeground(new java.awt.Color(148 , 0  , 211));
         jLabel1.setText("Department");
 
-        jPanel1.setBackground(new java.awt.Color(0, 204, 204));
+        jPanel1.setBackground(new java.awt.Color(238,130 ,238));
         jPanel1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel1MouseClicked(evt);
@@ -142,10 +141,10 @@ public class chooseDoctor extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(apTable);
 
-        dSearchbox.setForeground(new java.awt.Color(0, 204, 204));
+        dSearchbox.setForeground(new java.awt.Color(0, 0,0));
         dSearchbox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Department", "Medecine", "Dental", "Gynaecology", "Nutrition", "Neurology", "Cardiology", "Haematology", "Microbiology" }));
 
-        jPanel2.setBackground(new java.awt.Color(0, 204, 204));
+        jPanel2.setBackground(new java.awt.Color(238 ,130 ,238));
         jPanel2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel2MouseClicked(evt);
@@ -178,7 +177,7 @@ public class chooseDoctor extends javax.swing.JFrame {
         );
 
         doctorhind.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        doctorhind.setForeground(new java.awt.Color(0, 204, 204));
+        doctorhind.setForeground(new java.awt.Color(0, 0,0));
         doctorhind.setText("Select a Doctor and Press Next");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

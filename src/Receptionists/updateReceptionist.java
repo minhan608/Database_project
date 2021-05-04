@@ -37,9 +37,7 @@ public class updateReceptionist extends javax.swing.JFrame {
 
     public updateReceptionist() {
         initComponents();
-        ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
-        this.setIconImage(ic.getImage());
-
+        
         Object columns[] = {"Serial", "Joining Date", "Id", "Name", "Age", "Gender", "Blood Group", "Email Address", "Phone Number", "Address", "Status", "Username", "Password"};
         defaultTableModel.setColumnIdentifiers(columns);
         rUTable.setModel(defaultTableModel);
@@ -91,7 +89,7 @@ public class updateReceptionist extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Update Receptionist !");
 
-        jPanel7.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel7.setBackground(new java.awt.Color(148 , 0  , 211 ));
 
         jLabel14.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(255, 255, 255));
@@ -153,7 +151,7 @@ public class updateReceptionist extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(rUTable);
 
-        jPanel1.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel1.setBackground(new java.awt.Color(238 ,130 ,238));
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));

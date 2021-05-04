@@ -32,9 +32,7 @@ public class patientManagement extends javax.swing.JFrame {
 
     public patientManagement() {
         initComponents();
-        ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
-        this.setIconImage(ic.getImage());
-
+       
         Object columns[] = {"Count", "Date", "Id", "Name", "Age", "Gender", "Address", "Phone Number", "Status", "Disease", "Room Number"};
         defaultTableModel.setColumnIdentifiers(columns);
         pMTable.setModel(defaultTableModel);
@@ -91,7 +89,7 @@ public class patientManagement extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Patient Management !");
 
-        jPanel7.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel7.setBackground(new java.awt.Color(148 , 0  , 211));
 
         jLabel14.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(255, 255, 255));
@@ -138,18 +136,18 @@ public class patientManagement extends javax.swing.JFrame {
         );
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel1.setForeground(new java.awt.Color(0, 0,0));
         jLabel1.setText("Name of Patient");
 
         pSearchField.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
-        pSearchField.setForeground(new java.awt.Color(0, 204, 204));
+        pSearchField.setForeground(new java.awt.Color(0,0,0));
         pSearchField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pSearchFieldActionPerformed(evt);
             }
         });
 
-        jPanel1.setBackground(new java.awt.Color(0, 204, 204));
+        jPanel1.setBackground(new java.awt.Color(0, 0,0));
         jPanel1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel1MouseClicked(evt);
@@ -200,7 +198,7 @@ public class patientManagement extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(pMTable);
 
-        jPanel2.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel2.setBackground(new java.awt.Color(238 ,130 ,238));
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));

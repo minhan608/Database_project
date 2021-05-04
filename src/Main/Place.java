@@ -7,8 +7,7 @@ public class Place extends javax.swing.JFrame {
 
     public Place() {
         initComponents();
-        ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
-        this.setIconImage(ic.getImage());
+        
     }
 
     @SuppressWarnings("unchecked")
@@ -77,7 +76,7 @@ public class Place extends javax.swing.JFrame {
         );
 
         mLabel.setAlignment(java.awt.Label.CENTER);
-        mLabel.setBackground(new java.awt.Color(0, 153, 153));
+        mLabel.setBackground(new java.awt.Color(148 , 0  , 211));
         mLabel.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         mLabel.setForeground(new java.awt.Color(255, 255, 255));
         mLabel.setText("Patient Tracker System");
@@ -163,7 +162,7 @@ public class Place extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel4.setBackground(new java.awt.Color(0, 204, 204));
+        jPanel4.setBackground(new java.awt.Color(238 ,130 ,238));
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -186,7 +185,7 @@ public class Place extends javax.swing.JFrame {
                 .addGap(20, 20, 20))
         );
 
-        jPanel5.setBackground(new java.awt.Color(0, 102, 102));
+        jPanel5.setBackground(new java.awt.Color(148 , 0  , 211));
 
         jLabel2.setFont(new java.awt.Font("Arial", 1, 30)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
@@ -196,7 +195,7 @@ public class Place extends javax.swing.JFrame {
         jLabel3.setForeground(new java.awt.Color(255, 255, 255));
         jLabel3.setText("to");
 
-        jLabel4.setFont(new java.awt.Font("Arial", 0, 30)); // NOI18N
+        jLabel4.setFont(new java.awt.Font("Arial Narrow", 0, 30)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(255, 255, 255));
         jLabel4.setText("   IU System ");
         jLabel4.setToolTipText("");

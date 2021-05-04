@@ -32,9 +32,7 @@ public class updatePatient extends javax.swing.JFrame {
 
     public updatePatient() {
         initComponents();
-        ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
-        this.setIconImage(ic.getImage());
-
+        
         Object columns[] = {"Serial no", "Date", "Id", "Name", "Age", "Gender", "Address", "Phone Number", "Status", "Disease", "Room Number"};
         defaultTableModel.setColumnIdentifiers(columns);
         pUTable.setModel(defaultTableModel);
@@ -84,7 +82,7 @@ public class updatePatient extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Update Patient !");
 
-        jPanel7.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel7.setBackground(new java.awt.Color(148 , 0  , 211));
 
         jLabel14.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(255, 255, 255));
@@ -146,7 +144,7 @@ public class updatePatient extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(pUTable);
 
-        jPanel1.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel1.setBackground(new java.awt.Color(148 , 0  , 211));
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 24)); 
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));

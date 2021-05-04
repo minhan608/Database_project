@@ -20,9 +20,7 @@ public class viewPatient extends javax.swing.JFrame {
 
     public viewPatient() {
         initComponents();
-        ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
-        this.setIconImage(ic.getImage());
-
+       
         Object columns[] = {"Count", "Date", "Id", "Name", "Age", "Gender", "Address", "Phone Number", "Status", "Disease", "Room Number"};
         defaultTableModel.setColumnIdentifiers(columns);
         pTable.setModel(defaultTableModel);
@@ -73,7 +71,7 @@ public class viewPatient extends javax.swing.JFrame {
 
         jPanel1.setPreferredSize(new java.awt.Dimension(1260, 575));
 
-        jPanel7.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel7.setBackground(new java.awt.Color(148 , 0  , 211));
 
         jLabel14.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(255, 255, 255));

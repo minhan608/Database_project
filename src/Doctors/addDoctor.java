@@ -17,8 +17,7 @@ public class addDoctor extends javax.swing.JFrame {
 
     public addDoctor() {
         initComponents();
-        ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
-        this.setIconImage(ic.getImage());
+        
     }
 
     @SuppressWarnings("unchecked")
@@ -69,7 +68,7 @@ public class addDoctor extends javax.swing.JFrame {
 
         jPanel2.setPreferredSize(new java.awt.Dimension(1260, 583));
 
-        jPanel6.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel6.setBackground(new java.awt.Color(148 , 0  , 211));
 
         jLabel13.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(255, 255, 255));
@@ -114,7 +113,7 @@ public class addDoctor extends javax.swing.JFrame {
         );
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel1.setForeground(new java.awt.Color(0,0, 0));
         jLabel1.setText("Joining Date");
 
         dDateField.addActionListener(new java.awt.event.ActionListener() {
@@ -123,7 +122,7 @@ public class addDoctor extends javax.swing.JFrame {
             }
         });
 
-        dIdField.setText("sjb0HMSd");
+        dIdField.setText("");
         dIdField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 dIdFieldActionPerformed(evt);
@@ -131,7 +130,7 @@ public class addDoctor extends javax.swing.JFrame {
         });
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel2.setForeground(new java.awt.Color(0,0, 0));
         jLabel2.setText("Id");
 
         dNameField.addActionListener(new java.awt.event.ActionListener() {
@@ -141,11 +140,11 @@ public class addDoctor extends javax.swing.JFrame {
         });
 
         jLabel3.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel3.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel3.setForeground(new java.awt.Color(0,0, 0));
         jLabel3.setText("Name");
 
         jLabel4.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel4.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel4.setForeground(new java.awt.Color(0,0, 0));
         jLabel4.setText("Age");
 
         dAgeField.addActionListener(new java.awt.event.ActionListener() {
@@ -155,14 +154,14 @@ public class addDoctor extends javax.swing.JFrame {
         });
 
         jLabel5.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel5.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel5.setForeground(new java.awt.Color(0,0, 0));
         jLabel5.setText("Gender");
 
         Gender.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        Gender.setForeground(new java.awt.Color(0, 153, 153));
+        Gender.setForeground(new java.awt.Color(0,0, 0));
         Gender.setText("Department");
 
-        dPhoneField.setText("+880");
+        dPhoneField.setText("");
         dPhoneField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 dPhoneFieldActionPerformed(evt);
@@ -170,11 +169,11 @@ public class addDoctor extends javax.swing.JFrame {
         });
 
         jLabel7.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel7.setForeground(new java.awt.Color(0,0, 0));
         jLabel7.setText("Phone Number");
 
         jLabel8.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel8.setForeground(new java.awt.Color(0,0, 0));
         jLabel8.setText("Maritial Status");
 
         dAddressField.addActionListener(new java.awt.event.ActionListener() {
@@ -184,7 +183,7 @@ public class addDoctor extends javax.swing.JFrame {
         });
 
         jLabel9.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel9.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel9.setForeground(new java.awt.Color(0,0, 0));
         jLabel9.setText("Address");
 
         dRoomField.addActionListener(new java.awt.event.ActionListener() {
@@ -194,8 +193,8 @@ public class addDoctor extends javax.swing.JFrame {
         });
 
         jLabel14.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel14.setForeground(new java.awt.Color(0, 153, 153));
-        jLabel14.setText("Ward/Room no");
+        jLabel14.setForeground(new java.awt.Color(0,0, 0));
+        jLabel14.setText("Room no");
 
         dGenderField.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Item", "Male", "Female" }));
         dGenderField.addActionListener(new java.awt.event.ActionListener() {
@@ -211,7 +210,7 @@ public class addDoctor extends javax.swing.JFrame {
             }
         });
 
-        jPanel7.setBackground(new java.awt.Color(0, 204, 204));
+        jPanel7.setBackground(new java.awt.Color(138, 43, 226));
 
         addDctorbtn.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         addDctorbtn.setForeground(new java.awt.Color(255, 255, 255));
@@ -239,7 +238,7 @@ public class addDoctor extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel8.setBackground(new java.awt.Color(102, 102, 102));
+        jPanel8.setBackground(new java.awt.Color(0,0,0));
         jPanel8.setPreferredSize(new java.awt.Dimension(100, 65));
 
         clearPbtn.setFont(new java.awt.Font("Arial", 0, 23)); // NOI18N
@@ -269,7 +268,7 @@ public class addDoctor extends javax.swing.JFrame {
         );
 
         jLabel6.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel6.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel6.setForeground(new java.awt.Color(0,0, 0));
         jLabel6.setText("Blood group");
 
         dBloodField.addActionListener(new java.awt.event.ActionListener() {
@@ -279,7 +278,7 @@ public class addDoctor extends javax.swing.JFrame {
         });
 
         jLabel10.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel10.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel10.setForeground(new java.awt.Color(0,0, 0));
         jLabel10.setText("Email");
 
         dEmailField.addActionListener(new java.awt.event.ActionListener() {
@@ -289,11 +288,11 @@ public class addDoctor extends javax.swing.JFrame {
         });
 
         jLabel15.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel15.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel15.setForeground(new java.awt.Color(0,0, 0));
         jLabel15.setText("Password");
 
         jLabel11.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel11.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel11.setForeground(new java.awt.Color(0,0, 0));
         jLabel11.setText("Username");
 
         dUserField.addActionListener(new java.awt.event.ActionListener() {

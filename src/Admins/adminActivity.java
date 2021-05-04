@@ -14,8 +14,7 @@ public class adminActivity extends javax.swing.JFrame {
 
     public adminActivity() {
         initComponents();
-        ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
-        this.setIconImage(ic.getImage());
+        
     }
 
     public void User(String username) {
@@ -52,7 +51,7 @@ public class adminActivity extends javax.swing.JFrame {
             }
         });
 
-        jPanel1.setBackground(new java.awt.Color(232, 2, 252));
+        jPanel1.setBackground(new java.awt.Color(138, 43, 226));
 
         jLabel1.setFont(new java.awt.Font("Arial", 1, 30)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(255, 255, 255));
@@ -224,7 +223,7 @@ public class adminActivity extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel2.setBackground(new java.awt.Color(232, 2, 252));
+        jPanel2.setBackground(new java.awt.Color(148 , 0  , 211));
 
         jLabel10.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));

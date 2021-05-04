@@ -17,8 +17,7 @@ public class addReceptionist extends javax.swing.JFrame {
 
     public addReceptionist() {
         initComponents();
-        ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
-        this.setIconImage(ic.getImage());
+       
     }
 
     @SuppressWarnings("unchecked")
@@ -62,7 +61,7 @@ public class addReceptionist extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Add Receptionist !");
 
-        jPanel5.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel5.setBackground(new java.awt.Color(148 , 0  , 211));
 
         jLabel12.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
@@ -116,7 +115,7 @@ public class addReceptionist extends javax.swing.JFrame {
             }
         });
 
-        rIdField.setText("sjb0HMSr");
+        rIdField.setText("");
         rIdField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 rIdFieldActionPerformed(evt);
@@ -161,7 +160,7 @@ public class addReceptionist extends javax.swing.JFrame {
         blood.setForeground(new java.awt.Color(0, 153, 153));
         blood.setText("Blood Group");
 
-        rPhoneField.setText("+880");
+        rPhoneField.setText("");
         rPhoneField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 rPhoneFieldActionPerformed(evt);
@@ -210,7 +209,7 @@ public class addReceptionist extends javax.swing.JFrame {
             }
         });
 
-        jPanel6.setBackground(new java.awt.Color(0, 204, 204));
+        jPanel6.setBackground(new java.awt.Color(238 ,130 ,238));
         jPanel6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel6MouseClicked(evt);
@@ -243,7 +242,7 @@ public class addReceptionist extends javax.swing.JFrame {
                 .addContainerGap(12, Short.MAX_VALUE))
         );
 
-        jPanel7.setBackground(new java.awt.Color(102, 102, 102));
+        jPanel7.setBackground(new java.awt.Color(0,0,0));
         jPanel7.setPreferredSize(new java.awt.Dimension(100, 100));
         jPanel7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
@@ -511,11 +510,11 @@ public class addReceptionist extends javax.swing.JFrame {
     private void clearPbtnMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_clearPbtnMouseClicked
         rDateField.setText("");
         rNameField.setText("");
-        rIdField.setText("sjb0HMSr");
+        rIdField.setText("");
         rAgeField.setText("");
         rGenderField.setSelectedIndex(0);
         rBloodField.setText("");
-        rPhoneField.setText("+880");
+        rPhoneField.setText("");
         rEmailField.setText("");
         rAddressField.setText("");
         rStatusField.setSelectedIndex(0);
@@ -526,11 +525,11 @@ public class addReceptionist extends javax.swing.JFrame {
     private void jPanel7MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jPanel7MouseClicked
         rDateField.setText("");
         rNameField.setText("");
-        rIdField.setText("sjb0HMSr");
+        rIdField.setText("");
         rAgeField.setText("");
         rGenderField.setSelectedIndex(0);
         rBloodField.setText("");
-        rPhoneField.setText("+880");
+        rPhoneField.setText("");
         rEmailField.setText("");
         rAddressField.setText("");
         rStatusField.setSelectedIndex(0);

@@ -21,8 +21,7 @@ public class deleteDoctor extends javax.swing.JFrame {
 
     public deleteDoctor() {
         initComponents();
-        ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
-        this.setIconImage(ic.getImage());
+       
 
         Object columns[] = {"Serial", "Joining Date", "Id", "Name", "Age", "Gender", "Blood Group", "Department", "Phone Number", "Email Address", "Status", "Address", "Room number", "Username"};
         defaultTableModel.setColumnIdentifiers(columns);
@@ -78,7 +77,7 @@ public class deleteDoctor extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Delete Doctor !");
 
-        jPanel7.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel7.setBackground(new java.awt.Color(148 , 0  , 211 ));
 
         jLabel14.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(255, 255, 255));
@@ -122,12 +121,12 @@ public class deleteDoctor extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jLabel1.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel1.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(0,0, 0));
         jLabel1.setText("Name of Doctor");
 
         dDeleteField.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
-        dDeleteField.setForeground(new java.awt.Color(0, 204, 204));
+        dDeleteField.setForeground(new java.awt.Color(0, 0, 0));
         dDeleteField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 dDeleteFieldActionPerformed(evt);
@@ -155,14 +154,14 @@ public class deleteDoctor extends javax.swing.JFrame {
         });
         jScrollPane1.setViewportView(dDTable);
 
-        jPanel1.setBackground(new java.awt.Color(0, 204, 204));
+        jPanel1.setBackground(new java.awt.Color(138, 43, 226 ));
         jPanel1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel1MouseClicked(evt);
             }
         });
 
-        dDeletebtn.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
+        dDeletebtn.setFont(new java.awt.Font("Arial", 0, 20)); // NOI18N
         dDeletebtn.setForeground(new java.awt.Color(255, 255, 255));
         dDeletebtn.setText("Delete");
         dDeletebtn.addMouseListener(new java.awt.event.MouseAdapter() {

@@ -21,9 +21,7 @@ public class viewReceptionist extends javax.swing.JFrame {
 
     public viewReceptionist() {
         initComponents();
-        ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
-        this.setIconImage(ic.getImage());
-
+       
         Object columns[] = {"Serial", "Joining Date", "Id", "Name", "Age", "Gender", "Blood Group", "Email Address", "Phone Number", "Address", "Status", "Username", "Password"};
         defaultTableModel.setColumnIdentifiers(columns);
         rTable.setModel(defaultTableModel);
@@ -76,7 +74,7 @@ public class viewReceptionist extends javax.swing.JFrame {
 
         jPanel1.setPreferredSize(new java.awt.Dimension(1260, 575));
 
-        jPanel7.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel7.setBackground(new java.awt.Color(148 , 0  , 211 ));
 
         jLabel14.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(255, 255, 255));
@@ -141,7 +139,7 @@ public class viewReceptionist extends javax.swing.JFrame {
         });
         jScrollPane2.setViewportView(rTable);
 
-        rPassBtn.setBackground(new java.awt.Color(255, 0, 0));
+        rPassBtn.setBackground(new java.awt.Color(0, 0, 0));
         rPassBtn.setForeground(new java.awt.Color(255, 255, 255));
         rPassBtn.setText("Show Passwords");
         rPassBtn.addActionListener(new java.awt.event.ActionListener() {

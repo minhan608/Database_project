@@ -18,8 +18,7 @@ public class Doctor extends javax.swing.JFrame {
 
     public Doctor() {
         initComponents();
-        ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
-        this.setIconImage(ic.getImage());
+  
     }
 
     @SuppressWarnings("unchecked")
@@ -44,7 +43,7 @@ public class Doctor extends javax.swing.JFrame {
         jPanel1.setLayout(null);
 
         mLabel.setAlignment(java.awt.Label.CENTER);
-        mLabel.setBackground(new java.awt.Color(0, 153, 153));
+        mLabel.setBackground(new java.awt.Color(148 , 0  , 211));
         mLabel.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         mLabel.setForeground(new java.awt.Color(255, 255, 255));
         mLabel.setText("Patient Tracker System");
@@ -61,7 +60,7 @@ public class Doctor extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel2.setText("Password:");
 
-        dExitBtn.setBackground(new java.awt.Color(0, 204, 204));
+        dExitBtn.setBackground(new java.awt.Color(138, 43, 226));
         dExitBtn.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         dExitBtn.setForeground(new java.awt.Color(255, 255, 255));
         dExitBtn.setText("Home");
@@ -71,7 +70,7 @@ public class Doctor extends javax.swing.JFrame {
             }
         });
 
-        dLoginBtn.setBackground(new java.awt.Color(0, 153, 153));
+        dLoginBtn.setBackground(new java.awt.Color(138, 43, 226));
         dLoginBtn.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         dLoginBtn.setForeground(new java.awt.Color(255, 255, 255));
         dLoginBtn.setText("Login");

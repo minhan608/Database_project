@@ -18,8 +18,7 @@ public class Receptionist extends javax.swing.JFrame {
 
     public Receptionist() {
         initComponents();
-        ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
-        this.setIconImage(ic.getImage());
+        
     }
 
     @SuppressWarnings("unchecked")

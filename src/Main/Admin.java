@@ -52,7 +52,7 @@ public class Admin extends javax.swing.JFrame {
             }
         });
 
-        dExitBtn.setBackground(new java.awt.Color(0, 204, 204));
+        dExitBtn.setBackground(new java.awt.Color(138, 43, 226));
         dExitBtn.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         dExitBtn.setForeground(new java.awt.Color(255, 255, 255));
         dExitBtn.setText("Home");
@@ -62,7 +62,7 @@ public class Admin extends javax.swing.JFrame {
             }
         });
 
-        aLoginBtn.setBackground(new java.awt.Color(0, 153, 153));
+        aLoginBtn.setBackground(new java.awt.Color(138, 43, 226));
         aLoginBtn.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         aLoginBtn.setForeground(new java.awt.Color(255, 255, 255));
         aLoginBtn.setText("Login");
@@ -73,7 +73,7 @@ public class Admin extends javax.swing.JFrame {
         });
 
         mLabel.setAlignment(java.awt.Label.CENTER);
-        mLabel.setBackground(new java.awt.Color(0, 153, 153));
+        mLabel.setBackground(new java.awt.Color(148 , 0  , 211));
         mLabel.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         mLabel.setForeground(new java.awt.Color(255, 255, 255));
         mLabel.setText("Patient Tracker System");

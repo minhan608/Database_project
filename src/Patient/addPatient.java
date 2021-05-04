@@ -15,8 +15,7 @@ public class addPatient extends javax.swing.JFrame {
 
     public addPatient() {
         initComponents();
-        ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
-        this.setIconImage(ic.getImage());
+       
     }
 
     @SuppressWarnings("unchecked")
@@ -56,7 +55,7 @@ public class addPatient extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Add Patient");
 
-        jPanel5.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel5.setBackground(new java.awt.Color(148 , 0  , 211));
 
         jLabel12.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel12.setForeground(new java.awt.Color(255, 255, 255));
@@ -110,7 +109,7 @@ public class addPatient extends javax.swing.JFrame {
             }
         });
 
-        pIdField.setText("sjb0HMS");
+        pIdField.setText("");
         pIdField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pIdFieldActionPerformed(evt);
@@ -155,7 +154,7 @@ public class addPatient extends javax.swing.JFrame {
         Gender.setForeground(new java.awt.Color(0, 153, 153));
         Gender.setText("Address");
 
-        pPhoneField.setText("+880");
+        pPhoneField.setText("");
         pPhoneField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pPhoneFieldActionPerformed(evt);
@@ -188,7 +187,7 @@ public class addPatient extends javax.swing.JFrame {
 
         jLabel13.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         jLabel13.setForeground(new java.awt.Color(0, 153, 153));
-        jLabel13.setText("Ward/Room no");
+        jLabel13.setText("Room no");
 
         pGenderField.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Select Item", "Male", "Female" }));
         pGenderField.addActionListener(new java.awt.event.ActionListener() {
@@ -204,7 +203,7 @@ public class addPatient extends javax.swing.JFrame {
             }
         });
 
-        jPanel6.setBackground(new java.awt.Color(0, 204, 204));
+        jPanel6.setBackground(new java.awt.Color(138, 43, 226));
         jPanel6.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel6MouseClicked(evt);
@@ -237,7 +236,7 @@ public class addPatient extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jPanel7.setBackground(new java.awt.Color(102, 102, 102));
+        jPanel7.setBackground(new java.awt.Color(0,0,0 ));
         jPanel7.setPreferredSize(new java.awt.Dimension(100, 100));
         jPanel7.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {

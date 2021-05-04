@@ -20,9 +20,6 @@ public class appointment extends javax.swing.JFrame {
     public appointment(String Nname) {
         initComponents();
         pName = Nname;
-        ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
-        this.setIconImage(ic.getImage());
-
         connection = Connector.ConnectDb();
         String sql = "SELECT id,age,gender FROM patient WHERE name = '" + pName + "'";
         try {
@@ -69,7 +66,7 @@ public class appointment extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Check Appoinments !");
 
-        jPanel3.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel3.setBackground(new java.awt.Color(148 , 0  , 211));
 
         jLabel10.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel10.setForeground(new java.awt.Color(255, 255, 255));
@@ -116,38 +113,38 @@ public class appointment extends javax.swing.JFrame {
         );
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 204, 204));
+        jLabel1.setForeground(new java.awt.Color( 0 , 0 , 0));
         jLabel1.setText("Patient Name:");
 
         pNamelbl.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        pNamelbl.setForeground(new java.awt.Color(153, 153, 153));
+        pNamelbl.setForeground(new java.awt.Color( 0 , 0 , 0 ));
         pNamelbl.setText("Patient Name");
 
         jLabel2.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel2.setForeground(new java.awt.Color(0, 204, 204));
+        jLabel2.setForeground(new java.awt.Color( 0 , 0 , 0 ));
         jLabel2.setText("Age:");
 
         pAgelbl.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        pAgelbl.setForeground(new java.awt.Color(153, 153, 153));
+        pAgelbl.setForeground(new java.awt.Color( 0 , 0 , 0));
         pAgelbl.setText("Patient Age");
 
         pIdlbl.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        pIdlbl.setForeground(new java.awt.Color(153, 153, 153));
+        pIdlbl.setForeground(new java.awt.Color( 0 , 0 , 0));
         pIdlbl.setText("Patient Id");
 
         pGenderlbl.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        pGenderlbl.setForeground(new java.awt.Color(153, 153, 153));
+        pGenderlbl.setForeground(new java.awt.Color( 0 , 0 , 0 ));
         pGenderlbl.setText("Patient Gender");
 
         jLabel7.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel7.setForeground(new java.awt.Color(0, 204, 204));
+        jLabel7.setForeground(new java.awt.Color( 0 , 0 , 0));
         jLabel7.setText("ID:");
 
         jLabel8.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
-        jLabel8.setForeground(new java.awt.Color(0, 204, 204));
+        jLabel8.setForeground(new java.awt.Color( 0 , 0 , 0));
         jLabel8.setText("Gender:");
 
-        appointmentBtn.setBackground(new java.awt.Color(0, 204, 204));
+        appointmentBtn.setBackground(new java.awt.Color(138, 43, 226));
         appointmentBtn.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         appointmentBtn.setForeground(new java.awt.Color(255, 255, 255));
         appointmentBtn.setText("Details");

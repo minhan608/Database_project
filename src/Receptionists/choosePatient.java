@@ -24,8 +24,7 @@ public class choosePatient extends javax.swing.JFrame {
 
     public choosePatient() {
         initComponents();
-        ImageIcon ic = new ImageIcon(getClass().getResource("/Images/hospital.png"));
-        this.setIconImage(ic.getImage());
+       
         Object columns[] = {"Date", "Id", "Name", "Age", "Gender", "Address", "Phone Number", "Status", "Disease", "Room Number"};
         defaultTableModel.setColumnIdentifiers(columns);
         pSTable.setModel(defaultTableModel);
@@ -54,7 +53,7 @@ public class choosePatient extends javax.swing.JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Choose Patient !");
 
-        jPanel7.setBackground(new java.awt.Color(0, 153, 153));
+        jPanel7.setBackground(new java.awt.Color(148 , 0  , 211));
 
         jLabel14.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         jLabel14.setForeground(new java.awt.Color(255, 255, 255));
@@ -101,11 +100,11 @@ public class choosePatient extends javax.swing.JFrame {
         );
 
         jLabel1.setFont(new java.awt.Font("Arial", 0, 36)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 153, 153));
+        jLabel1.setForeground(new java.awt.Color(0,0,0));
         jLabel1.setText("Name of Patient");
 
         pSearchField.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
-        pSearchField.setForeground(new java.awt.Color(0, 204, 204));
+        pSearchField.setForeground(new java.awt.Color(0, 0,0));
         pSearchField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pSearchFieldActionPerformed(evt);
@@ -117,7 +116,7 @@ public class choosePatient extends javax.swing.JFrame {
             }
         });
 
-        jPanel1.setBackground(new java.awt.Color(0, 204, 204));
+        jPanel1.setBackground(new java.awt.Color(238 ,130 ,238));
         jPanel1.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel1MouseClicked(evt);
@@ -163,7 +162,7 @@ public class choosePatient extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(pSTable);
 
-        jPanel2.setBackground(new java.awt.Color(0, 204, 204));
+        jPanel2.setBackground(new java.awt.Color(238 ,130 ,238));
         jPanel2.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {
                 jPanel2MouseClicked(evt);
