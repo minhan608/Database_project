@@ -96,7 +96,7 @@ public class searchDoctor extends javax.swing.JFrame {
         jLabel1.setText("Name of Doctor");
 
         rSearchField.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
-        rSearchField.setForeground(new java.awt.Color(0, 204, 204));
+        rSearchField.setForeground(new java.awt.Color(0, 0, 0));
         rSearchField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 rSearchFieldActionPerformed(evt);

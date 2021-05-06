@@ -41,7 +41,7 @@ public class Receptionist extends javax.swing.JFrame {
         getContentPane().setLayout(null);
 
         mLabel.setAlignment(java.awt.Label.CENTER);
-        mLabel.setBackground(new java.awt.Color(0, 153, 153));
+        mLabel.setBackground(new java.awt.Color(148 , 0  , 211));
         mLabel.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
         mLabel.setForeground(new java.awt.Color(255, 255, 255));
         mLabel.setText("Patient Tracker System");
@@ -74,7 +74,7 @@ public class Receptionist extends javax.swing.JFrame {
         getContentPane().add(rPassField);
         rPassField.setBounds(388, 302, 279, 29);
 
-        rExitBtn.setBackground(new java.awt.Color(0, 204, 204));
+        rExitBtn.setBackground(new java.awt.Color(148 , 0  , 211));
         rExitBtn.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         rExitBtn.setForeground(new java.awt.Color(255, 255, 255));
         rExitBtn.setText("Home");
@@ -86,7 +86,7 @@ public class Receptionist extends javax.swing.JFrame {
         getContentPane().add(rExitBtn);
         rExitBtn.setBounds(388, 404, 91, 35);
 
-        rLoginBtn.setBackground(new java.awt.Color(0, 153, 153));
+        rLoginBtn.setBackground(new java.awt.Color(148 , 0  , 211));
         rLoginBtn.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
         rLoginBtn.setForeground(new java.awt.Color(255, 255, 255));
         rLoginBtn.setText("Login");

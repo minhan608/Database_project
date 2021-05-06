@@ -140,7 +140,7 @@ public class appointment extends javax.swing.JFrame {
         jLabel7.setForeground(new java.awt.Color( 0 , 0 , 0));
         jLabel7.setText("ID:");
 
-        jLabel8.setFont(new java.awt.Font("Arial", 0, 18)); // NOI18N
+        jLabel8.setFont(new java.awt.Font("Arial Narrow", 0, 18)); // NOI18N
         jLabel8.setForeground(new java.awt.Color( 0 , 0 , 0));
         jLabel8.setText("Gender:");
 
@@ -232,9 +232,6 @@ public class appointment extends javax.swing.JFrame {
         dispose();
     }//GEN-LAST:event_appointmentBtnActionPerformed
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String args[]) {
 
         java.awt.EventQueue.invokeLater(() -> {
