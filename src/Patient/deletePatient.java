@@ -120,7 +120,7 @@ public class deletePatient extends javax.swing.JFrame {
         jLabel1.setText("Name of Patient");
 
         pSearchField.setFont(new java.awt.Font("Arial", 1, 18)); // NOI18N
-        pSearchField.setForeground(new java.awt.Color(0, 204, 204));
+        pSearchField.setForeground(new java.awt.Color(0, 0, 0));
         pSearchField.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 pSearchFieldActionPerformed(evt);

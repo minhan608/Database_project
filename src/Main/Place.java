@@ -162,11 +162,11 @@ public class Place extends javax.swing.JFrame {
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
-        jPanel4.setBackground(new java.awt.Color(238 ,130 ,238));
+        //jPanel4.setBackground(new java.awt.Color(238 ,130 ,238));
 
-        jLabel1.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
-        jLabel1.setText("Login As");
+        //jLabel1.setFont(new java.awt.Font("Arial", 0, 24)); // NOI18N
+        //jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        //jLabel1.setText("Login As");
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
